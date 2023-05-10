@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Main page</title>
+   <link rel="stylesheet" href="global_style.css">
+</head>
+<body>
+
+   <div class="header">
+      <div class="sidebar">
+         <div class="header-image">
+            <img src="https://cdn.pixabay.com/photo/2022/06/27/08/37/silhouette-7287039__340.png" alt="photo">
+            <h3>Shaikh Sadi</h3>
+            <p>web designer</p>
+         </div>
+
+         <div class="sidebar-menu">
+            <ul>
+               <li><a href="#">protfolio</a></li>
+               <li><a href="#">project 01</a></li>
+               <li><a href="#">project 02</a></li>
+               <li><a href="#">project 03</a></li>
+               <li><a href="#">project 04</a></li>
+               <li><a href="#">project 05</a></li>
+               <li><a href="#">project 06</a></li>
+               <li><a href="#">project 07</a></li>
+            </ul>
+         </div>
+
+
+      </div>
+
+      <div class="menu-bar">
+         <div class="navbar-top">
+            <div class="icon">
+               <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+         </div>
+      </div>
+
+
+   </div>
+
+
+   <!--java script-->
+   <script>
+      let icon = document.querySelector(".icon");
+      icon.addEventListener("click", function(){
+         document.querySelector("body").classList.toggle("active");
+      })
+
+   </script>
+
+
+
+   <!--font awesome-->
+   <script src="https://kit.fontawesome.com/f6e7399a55.js" crossorigin="anonymous"></script>
+</body>
+</html>
