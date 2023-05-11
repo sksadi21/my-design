@@ -78,5 +78,19 @@ body{
    color: #fff;
 }
 
+body.active .sidebar{
+   left: -250px;
+}
+
+body.active .menu-bar{
+   margin-left: 0;
+   width: 100%;
+}
+
+
+
+
+
+
 
 
