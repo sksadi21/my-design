@@ -1,0 +1,54 @@
+@media (max-width: 991px) {
+
+   .header-left{
+      width: 100%;
+      margin-bottom: 25px;
+   }
+   .header-right{
+      width: 100%;
+      text-align: center;
+   }
+   .header-right h3{
+      padding: 17px;
+   }
+
+   .item{
+      width: 48%;
+   }
+
+
+}
+
+@media (max-width: 575px) {
+
+   .header-left h1{
+      font-size: 50px;
+   }
+   .header-left p{
+      font-size: 18px;
+   }
+   .header-right h3{
+      font-size: 24px;
+      letter-spacing: 6px;
+   }
+
+   .item{
+      width: 100%;
+   }
+
+   .about-logo h1{
+      font-size: 45px;
+   }
+   .about-logo p{
+      font-size: 17px;
+   }
+
+
+   footer p{
+      font-size: 20px;
+      letter-spacing: 1px;
+   }
+
+
+}
+ 
