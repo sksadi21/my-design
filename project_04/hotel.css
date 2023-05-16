@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Grand Hotel', cursive;
+}
+img{
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+a{
+   text-decoration: none;
+}
+ul{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+/*====== Banner Area =====*/
+
+.banner-section{
+   background: url(img/egg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.banner-overlay{
+   background: rgba(231, 86, 93, 0.7);
+   padding: 40px 0;
+}
+
+.logo{
+   width: 200px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.menu ul{
+   display: flex;
+   justify-content: center;
+}
+.menu ul li a{
+   color: #fff;
+   font-size: 25px;
+   text-transform: capitalize;
+   padding: 0 22px;
+}
+.menu-button{
+   display: none;
+}
+.banner-content{
+   text-align: center;
+   width: 75%;
+   margin: auto;
+}
+.banner-content h1{
+   font-size: 200px;
+   color: #fff;
+}
+.banner-content p{
+   font-size: 25px;
+   color: #fff;
+   margin-bottom: 30px;
+}
+.banner-content a{
+   color: #e8565e;
+   background: #fff;
+   padding: 10px 30px;
+   border-radius: 30px;
+   text-transform: uppercase;
+   transition: 0.5s;
+}
+.banner-content a:hover{
+   background: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 10px 30px;
+   border-radius: 30px;
+}
+
+
+/*====== popular items =====*/
+
+.popular-section{
+   background: url(img/bak_img.webp);
+   background: rgba(235, 230, 230, 0.6);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 60px 0;
+}
+.section-titel{
+   text-align: center;
+   width: 75%;
+   margin: auto;
+   margin-bottom: 40px;
+}
+.section-titel h2{
+   color: #e8565e;
+   font-size: 110px;
+}
+.section-titel p{
+   font-size: 25px;
+   color: #333333;
+}
+.popular-item{
+   text-align: center;
+}
+.popular-item img{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   margin: 20px auto;
+}
+.popular-item h3{
+   font-size: 40px;
+   color: #e8565e;
+}
+.popular-item p{
+   font-size: 20px;
+   color: #333333;
+}
+
+/*====== statistic area =====*/
+
+.statistic-section{
+   background: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+
+
+
+
+
+/*====== responsice area =====*/
+
+@media (max-width: 991px) {
+   .menu{
+      display: none;
+   }
+   .menu-button{
+      display: block;
+      text-align: center;
+   }
+   .menu-button span{
+      background: #fff;
+      color: #e8565e;
+      padding: 10px 30px;
+      border-radius: 20px;
+   }
+   .banner-content{
+      width: 100%;
+   }
+   .banner-content h1{
+      margin-top: 20px;
+      font-size: 100px;
+   }
+   .banner-content p{
+      font-size: 20px;
+   }
+
+   .section-titel{
+      width: 100%;
+   }
+   .section-titel h2{
+      font-size: 60px;
+   }
+   .section-titel p{
+      font-size: 20px;
+   }
+   .popular-item h3{
+      font-size: 30px;
+   }
+   .popular-item p{
+      font-size: 18px;
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

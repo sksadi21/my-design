@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+ul, .nav{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+   cursor: pointer;
+}
+section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 110px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======= responsive area  =======*/
+
+@media (max-width: 992px) {
+
+   section{
+      padding: 100px 50px;
+   }
+
+
+
+}
+
+
+
+
+/*======= responsive area  =======*/
+
+
+@media (max-width: 575px) {
+
+   section{
+      padding: 125px 30px;
+   }
+
+}
+
+
+
+
+
+
+
+
+/*======= responsive area  =======*/
+
+
+
+
+
+
+
