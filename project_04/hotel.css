@@ -132,20 +132,90 @@ ul{
 /*====== statistic area =====*/
 
 .statistic-section{
-   background: url();
+   background: url(img/penne.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   padding: 70px 0;
+   position: relative;
+   z-index: 1;
+}
+.statistic-section::after{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 100%;
+   background:#eb4d55;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   mix-blend-mode: multiply;
+}
+.statistic-section .section-titel h2{
+   color: #fff;
+}
+.statistic-section .section-titel p{
+   color: #fff;
+}
+
+.statistic-content{
+   border: 2px dashed #fff;
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px auto;
+}
+.statistic-content div{
+   text-align: center;
+}
+.statistic-content div b{
+   display: block;
+   color: #fff;
+   font-size: 50px;
+}
+.statistic-content div span{
+   display: block;
+   color: #fff;
+   font-size: 40px;
+}
+
+
+/*====== menu area =====*/
+
+.menu-area{
+   background: #ede5cb;
+   padding: 60px 0;
+}
+.menu-item{
+   margin-bottom: 25px;
+}
+.menu-item h5{
+   color: #eb4d55;
+   font-size: 50px;
+}
+.menu-item p{
+   color: #3d3d3d;
+   font-size: 20px;
 }
 
 
 
 
 
-
-
-
 /*====== responsice area =====*/
+
+@media (max-width: 1199px){
+   .statistic-content{
+      width: 220px;
+      height: 220px;
+   }
+}
+
+
 
 @media (max-width: 991px) {
    .menu{
